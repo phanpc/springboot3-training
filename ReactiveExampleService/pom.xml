@@ -9,7 +9,7 @@
 		<relativePath/> <!-- lookup parent from repository -->
 	</parent>
 	<groupId>com.phanpc.springboot3.example</groupId>
-	<artifactId>simpleservice</artifactId>
+	<artifactId>reactiveservice</artifactId>
 	<version>0.0.1-SNAPSHOT</version>
 	<name>reactiveservice</name>
 	<description>Demo project for Spring Boot</description>

@@ -1,4 +1,4 @@
-package com.phanpc.springboot3example.simpleservice.controller;
+package com.phanpc.springboot3example.reactive_service.controller;
 
 import org.slf4j.Logger;
 import org.slf4j.LoggerFactory;
@@ -12,9 +12,9 @@ import org.springframework.web.bind.annotation.RequestBody;
 import org.springframework.web.bind.annotation.RequestMapping;
 import org.springframework.web.bind.annotation.RestController;
 
-import com.phanpc.springboot3example.simpleservice.domain.model.User;
-import com.phanpc.springboot3example.simpleservice.domain.repository.UserRepository;
-import com.phanpc.springboot3example.simpleservice.exceptions.EmailUniquenessException;
+import com.phanpc.springboot3example.reactive_service.domain.model.User;
+import com.phanpc.springboot3example.reactive_service.domain.repository.UserRepository;
+import com.phanpc.springboot3example.reactive_service.exceptions.EmailUniquenessException;
 
 import reactor.core.publisher.Flux;
 import reactor.core.publisher.Mono;
