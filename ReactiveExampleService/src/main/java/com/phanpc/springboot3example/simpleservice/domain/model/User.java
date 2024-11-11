@@ -1,4 +1,4 @@
-package com.phanpc.springboot3.example.simpleservice.domain.model;
+package com.phanpc.springboot3example.simpleservice.domain.model;
 
 import org.springframework.data.annotation.Id;
 import org.springframework.data.relational.core.mapping.Table;

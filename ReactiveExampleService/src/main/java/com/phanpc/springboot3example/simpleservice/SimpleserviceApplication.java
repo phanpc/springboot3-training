@@ -1,4 +1,4 @@
-package com.phanpc.springboot3.example.simpleservice;
+package com.phanpc.springboot3example.simpleservice;
 
 import org.springframework.boot.SpringApplication;
 import org.springframework.boot.autoconfigure.SpringBootApplication;

@@ -1,4 +1,4 @@
-package com.phanpc.springboot3.example.simpleservice.controller;
+package com.phanpc.springboot3example.simpleservice.controller;
 
 import org.slf4j.Logger;
 import org.slf4j.LoggerFactory;
@@ -11,11 +11,13 @@ import org.springframework.web.bind.annotation.PostMapping;
 import org.springframework.web.bind.annotation.RequestBody;
 import org.springframework.web.bind.annotation.RequestMapping;
 import org.springframework.web.bind.annotation.RestController;
+
+import com.phanpc.springboot3example.simpleservice.domain.model.User;
+import com.phanpc.springboot3example.simpleservice.domain.repository.UserRepository;
+import com.phanpc.springboot3example.simpleservice.exceptions.EmailUniquenessException;
+
 import reactor.core.publisher.Flux;
 import reactor.core.publisher.Mono;
-import com.phanpc.springboot3.example.simpleservice.domain.repository.UserRepository;
-import com.phanpc.springboot3.example.simpleservice.exceptions.EmailUniquenessException;
-import com.phanpc.springboot3.example.simpleservice.domain.model.User;
 
 //phanpc: khai báo một Controller với Reactive cũng tương tự như khai báo Controller thông thường.
 @RestController
